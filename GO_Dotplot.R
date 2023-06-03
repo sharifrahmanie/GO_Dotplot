@@ -1,6 +1,4 @@
 require(org.Mm.eg.db)
-#require(gage)
-require(gageData)
 require(tidyverse)
 require(clusterProfiler)
 # By @biomedical_infromatics Edris Sharif Rahmani. Jun 3, 2023
@@ -42,7 +40,7 @@ GO_dotplot <- function(data,
   return(g)
 }
 
-GO_dotplot(data = "DESeq2/Unique_lung_drop.csv", 
+GO_dotplot(data = "DEGs.csv", 
            pval = 0.05,
            qval = 0.05,
            top = 10)
