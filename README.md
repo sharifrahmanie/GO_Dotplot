@@ -1,5 +1,5 @@
 # GO_Dotplot
-Mouse Gene Ontology (GO) terms for biological processes (BP) using object-oriented programming (OOP) in R
+Mouse Gene Ontology (GO) terms for biological processes (BP)
 
 ```{r }
 require(org.Mm.eg.db)
